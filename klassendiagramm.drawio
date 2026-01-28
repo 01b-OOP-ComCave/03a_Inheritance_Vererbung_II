@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram name="Cat" id="dj44jazqbiqKPl1LgXi8">
+        <mxGraphModel dx="937" dy="326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="uAX7xuMHbxAlAN_PrPhD-0"/>
+                <mxCell id="uAX7xuMHbxAlAN_PrPhD-1" parent="uAX7xuMHbxAlAN_PrPhD-0"/>
+                <mxCell id="uAX7xuMHbxAlAN_PrPhD-2" value="Cat" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="uAX7xuMHbxAlAN_PrPhD-1" vertex="1">
+                    <mxGeometry x="160" y="40" width="230" height="268" as="geometry"/>
+                </mxCell>
+                <mxCell id="uAX7xuMHbxAlAN_PrPhD-3" value="- firstName: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uAX7xuMHbxAlAN_PrPhD-2" vertex="1">
+                    <mxGeometry y="26" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="uAX7xuMHbxAlAN_PrPhD-4" value="- furColor: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uAX7xuMHbxAlAN_PrPhD-2" vertex="1">
+                    <mxGeometry y="52" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="uAX7xuMHbxAlAN_PrPhD-5" value="- age: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uAX7xuMHbxAlAN_PrPhD-2" vertex="1">
+                    <mxGeometry y="78" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="gteMITXKmZ43i2Y8Titz-0" value="- isFemale: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uAX7xuMHbxAlAN_PrPhD-2" vertex="1">
+                    <mxGeometry y="104" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="gteMITXKmZ43i2Y8Titz-1" value="- counter: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uAX7xuMHbxAlAN_PrPhD-2" vertex="1">
+                    <mxGeometry y="130" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="uAX7xuMHbxAlAN_PrPhD-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="uAX7xuMHbxAlAN_PrPhD-2" vertex="1">
+                    <mxGeometry y="156" width="230" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="uAX7xuMHbxAlAN_PrPhD-7" value="+ Cat(String, String, int, boolean)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uAX7xuMHbxAlAN_PrPhD-2" vertex="1">
+                    <mxGeometry y="164" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="uAX7xuMHbxAlAN_PrPhD-8" value="+ getStringAttributes(String): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uAX7xuMHbxAlAN_PrPhD-2" vertex="1">
+                    <mxGeometry y="190" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="uAX7xuMHbxAlAN_PrPhD-12" value="+ getAge(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uAX7xuMHbxAlAN_PrPhD-2" vertex="1">
+                    <mxGeometry y="216" width="230" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="gteMITXKmZ43i2Y8Titz-2" value="- checkEscalationLevel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="uAX7xuMHbxAlAN_PrPhD-2" vertex="1">
+                    <mxGeometry y="242" width="230" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
